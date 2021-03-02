@@ -1,7 +1,7 @@
 ---
 layout: projects
 title: ReefPin
-type: mechanical
+type: project
 cover_image: /images/100isle.jpg
 image_folder: /images/reefpin/
 ---

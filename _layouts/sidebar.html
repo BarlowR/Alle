@@ -5,9 +5,9 @@
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <p>{{ site.description }}</p>
         <h4>
-            {% assign project_pages = site.pages | where: "type", "field" %}
+            {% assign project_pages = site.pages | where: "type", "project" %}
             {%for page in project_pages%}
             <p><a href = {{page.url}}> {{page.title}} </a></p>
             {%endfor%}
